@@ -1,5 +1,6 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/San1na/VTR/refs/heads/main/VTR7FIX"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/San1na/VTR/refs/heads/main/VTR"))()
+wait(1)  -- Подождать 1 секунду перед загрузкой второго скрипта
+loadstring(game:HttpGet("https://raw.githubusercontent.com/San1na/VTR/refs/heads/main/VTR7FIX"))()
 
 farming = true  -- Устанавливаем начальное состояние фарминга
 
